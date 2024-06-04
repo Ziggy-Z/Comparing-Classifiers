@@ -17,8 +17,7 @@ To achieve our goal, we will use the following categorization algorithms:
 Each model was applied twice, first with default parameters and second with Hyperparameter tuning and grid search. This allowed us to assess for overfitting and get a better more accurate model.
 
 ### 3. Performance Comparison:
-The performance of the classifiers was evaluated using accuracy metrics with confusion matrices to understand the distribution of prediction errors.
-
+The performance of the classifiers was evaluated using accuracy metrics with confusion matrices to understand the distribution of prediction errors. Accuracy is a simple and easily interpretable metric that is easier to understand by our stakeholders.
 * **Logistic Regression:** Gives us a robust performance with high interpretability, making it a strong candidate for understanding the influence of individual features. 
 
 * **K-Nearest Neighbors (KNN):** Had really good accuracy score but was sensitive to the choice of n_neighbors and required careful tuning to balance bias and variance.
